@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.js">    </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.css">  </script>
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Share+Tech+Mono" rel="stylesheet">
@@ -63,6 +63,22 @@
 
 <script type="text/javascript">
 
+
+$(document).ready(function () {
+    $('h1.hidden').fadeIn(1000).removeClass('hidden');
+});
+
+setTimeout(function (){
+
+  $('h2.hidden').fadeIn(1000).removeClass('hidden');
+
+}, 1000);
+
+setTimeout(function (){
+
+  $('div.hidden').fadeIn(1000).removeClass('hidden');
+
+}, 2000);
 
 
 
