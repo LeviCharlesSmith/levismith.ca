@@ -2,13 +2,11 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-p {
-  font-family: 'Roboto Mono', monospace;
-}
 
+p,
 a {
   font-family: 'Roboto Mono', monospace;
-
+  font-family: 'Roboto Mono', monospace;
 }
 
 body {
@@ -20,7 +18,7 @@ body {
 .section {
   height: 100vh;
     background-color: #F7F7FF;
-    
+
 }
 
 .section_1 {
@@ -80,7 +78,6 @@ div.hidden {
   font-family: 'Roboto Mono', monospace;
   text-align: center;
   position: relative;
-  top: 26%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -93,6 +90,10 @@ div.hidden {
     margin: auto;
     // max-width: 610px;
     // min-width: 600px
+}
+
+.project_section {
+background-color: #F7F7FF;
 }
 
 .thumb {
@@ -240,7 +241,7 @@ width: 33vw;
   display: inline-block;
   width: 33vw;
   text-align: center;
-  margin-top: 24vw;
+  margin-top: 11vw;
 transition: 1s;
 }
 
@@ -248,7 +249,7 @@ transition: 1s;
   display: inline-block;
   width: 33vw;
   text-align: center;
-  margin-top: 24vw;
+  margin-top: 11vw;
   transition: 1s;
 }
 
@@ -256,7 +257,7 @@ transition: 1s;
   display: inline-block;
   width: 33vw;
   text-align: center;
-    margin-top: 24vw;
+    margin-top: 11vw;
     color: black;
 transition: 1s;
 }
