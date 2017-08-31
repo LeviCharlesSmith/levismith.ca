@@ -5,8 +5,94 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.js">    </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.css">  </script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Share+Tech+Mono" rel="stylesheet">
+  <script src="https://use.fontawesome.com/f67578bd5d.js"></script>
 </head>
 <body>
+  <nav>
 
+  </nav>
+
+    <div class="section">
+      <h1 class="h1_1 hidden">Levi Smith</h1>
+        <h2 class="h2_sub hidden">Junior (array here)</h2>
+        <div class="container">
+          <div class="arrow-holder hidden">
+            <div id="arrow" class="bounce arrow1">
+                <i class="fa fa-angle-double-down fa-4x drop-arrow"></i>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="section">
+      <h1 class="h1_2">Projects</h1>
+        <div class="Projects">
+          <img class="thumb thumbselect1" src="http://i.imgur.com/WdRWpnk.png?1" alt="">
+          <img class="thumb thumbselect2" src="http://i.imgur.com/ecQlyjy.png" alt="">
+          <img class="thumb thumbselect3" src="http://i.imgur.com/qpnacL5.png?1" alt="">
+          <img class="thumb2 thumbselect4" src="http://i.imgur.com/KqRcKE2.png?1" alt="">
+          <img class="thumb2 thumbselect5" src="http://i.imgur.com/KqRcKE2.png?1" alt="">
+          <img class="thumb2 thumbselect6" src="http://i.imgur.com/KqRcKE2.png?1" alt="">
+          <div class="container">
+          </div>
+        </div>
+    </div>
+
+
+    <div class="section_1">
+      <h1 class="h1_3">Contact</h1>
+        <div class="linkedinclass">
+          <i class="fa fa-linkedin fa-3x fa-border" id="linkedin" aria-hidden="true"></i>
+          <a href="www.linkedin.com/in/devlev" class="linkedinhref">www.linkedin.com/in/devlev</a>
+        </div>
+        <div class="mailclass">
+          <i class="fa fa-envelope-o fa-3x fa-border" id="mail" aria-hidden="true"></i>
+          <p>Levi.charles.smith@gmail.com</p>
+        </div>
+        <div class="phoneclass">
+          <i class="fa fa-phone fa-3x fa-border" id="phone" aria-hidden="true"></i>
+          <p>(778) 266-9520</p>
+        </div>
+    </div>
+
+
+
+
+<script type="text/javascript">
+
+$(document).ready(function () {
+    $('h1.hidden').fadeIn(1000).removeClass('hidden');
+});
+
+setTimeout(function (){
+
+  $('h2.hidden').fadeIn(1000).removeClass('hidden');
+
+}, 1000);
+
+setTimeout(function (){
+
+  $('div.hidden').fadeIn(1000).removeClass('hidden');
+
+}, 2000);
+
+
+$("#arrow").click(function() {
+    doBounce($(this), 3, '10px', 300);
+});
+function doBounce(element, times, distance, speed) {
+    for(var i = 0; i < times; i++) {
+        element.animate({marginTop: '-='+distance}, speed)
+            .animate({marginTop: '+='+distance}, speed);
+    }
+}
+</script>
+
+
+
+</div>
 </body>
 </html>
