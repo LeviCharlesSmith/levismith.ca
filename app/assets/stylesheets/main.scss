@@ -21,8 +21,8 @@ body {
 
 .section {
   height: 100vh;
-    background-color: #F7F7FF;
-
+  background-color: #F7F7FF;
+  margin-left: 48px;
 }
 
 .section_1 {
@@ -277,7 +277,6 @@ transition: 1s;
 }
 
 
-.linkedinhref:hover,
 .phoneclass:hover,
 .mailclass:hover,
 .linkedinclass:hover{
