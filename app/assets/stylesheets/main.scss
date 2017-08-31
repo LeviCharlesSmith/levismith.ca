@@ -198,16 +198,19 @@ width: 33vw;
  }
 
  .thumbselect2 {
+    transition: 1s;
    background-color: #16F4D0;
    filter: grayscale(100%)
  }
  .thumbselect3 {
+     transition: 1s;
    margin-left: -1%;
    background-color: #92140C;
     filter: grayscale(100%)
  }
 
  .thumbselect4 {
+     transition: 1s;
    margin-right: -1%;
    margin-left: 1%;
    background-color: #534B62;
@@ -215,11 +218,13 @@ width: 33vw;
  }
 
  .thumbselect5 {
+     transition: 1s;
     filter: grayscale(100%);
     background-color: #392F5A;
  }
 
  .thumbselect6 {
+     transition: 1s;
    margin-left: -1%;
    filter: grayscale(100%);
    background-color: #ADFCF9;
