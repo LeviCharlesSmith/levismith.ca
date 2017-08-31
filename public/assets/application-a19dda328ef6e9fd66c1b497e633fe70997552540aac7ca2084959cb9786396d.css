@@ -1,0 +1,320 @@
+/* line 5, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+p {
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* line 9, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+a {
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* line 14, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f7f7ff;
+}
+
+/* line 20, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.section {
+  height: 100vh;
+  background-color: #F7F7FF;
+}
+
+/* line 26, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.section_1 {
+  padding-top: 1%;
+  height: 100vh;
+  background-color: #F7F7FF;
+}
+
+/* line 32, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.h1_1 {
+  font-family: 'Roboto Mono', monospace;
+  color: #3185FC;
+  margin-top: 0px;
+  text-align: center;
+  font-size: 5em;
+  position: relative;
+  top: 42%;
+  -webkit-transform: translateY(-46%);
+  -ms-transform: translateY(-46%);
+  transform: translateY(-46%);
+}
+
+/* line 46, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+h2.hidden {
+  display: none;
+}
+
+/* line 50, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+h1.hidden {
+  display: none;
+}
+
+/* line 54, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+div.hidden {
+  display: none;
+}
+
+/* line 58, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.h2_sub {
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  position: relative;
+  top: 32%;
+  -webkit-transform: translateY(-36%);
+  -ms-transform: translateY(-36%);
+  transform: translateY(-36%);
+}
+
+/* line 68, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.h1_2 {
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  position: relative;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* line 79, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.h1_3 {
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  position: relative;
+  top: 26%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* line 92, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.Projects {
+  margin: auto;
+}
+
+/* line 98, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.thumb {
+  text-align: center;
+  height: 33vw;
+  width: 33vw;
+}
+
+/* line 103, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.thumb2 {
+  margin-top: -2%;
+  height: 33vw;
+  width: 33vw;
+}
+
+/* line 110, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.container {
+  margin: 0 auto;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+}
+
+/* line 118, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.arrow1 {
+  margin-top: 254px;
+}
+
+/* line 122, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.arrow2 {
+  margin-top: 53px;
+}
+
+/*-------------Infinite Bouncing Arrow----------*/
+/* line 128, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+/* line 183, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.thumbselect1 {
+  margin-right: -1%;
+  margin-left: 1%;
+  filter: grayscale(100%);
+  transition: 1s;
+  overflow: hidden;
+  background-color: #3185FC;
+}
+
+/* line 192, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.thumbselect2 {
+  background-color: #474448;
+  filter: grayscale(100%);
+}
+
+/* line 196, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.thumbselect3 {
+  margin-left: -1%;
+  background-color: #92140C;
+  filter: grayscale(100%);
+}
+
+/* line 202, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.thumbselect4 {
+  margin-right: -1%;
+  margin-left: 1%;
+  background-color: #534B62;
+  filter: grayscale(100%);
+}
+
+/* line 209, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.thumbselect5 {
+  filter: grayscale(100%);
+  background-color: #392F5A;
+}
+
+/* line 214, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.thumbselect6 {
+  margin-left: -1%;
+  filter: grayscale(100%);
+  background-color: #ADFCF9;
+}
+
+/* line 221, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.thumbselect6:hover,
+.thumbselect5:hover,
+.thumbselect4:hover,
+.thumbselect3:hover,
+.thumbselect2:hover,
+.thumbselect1:hover {
+  filter: none;
+  transition: 1s;
+}
+
+/* line 231, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+#phone,
+#mail,
+#linkedin {
+  border-radius: 50%;
+  padding: 14px;
+  transition: 1s;
+}
+
+/* line 239, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.phoneclass {
+  display: inline-block;
+  width: 33vw;
+  text-align: center;
+  margin-top: 24vw;
+  transition: 1s;
+}
+
+/* line 247, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.mailclass {
+  display: inline-block;
+  width: 33vw;
+  text-align: center;
+  margin-top: 24vw;
+  transition: 1s;
+}
+
+/* line 255, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.linkedinclass {
+  display: inline-block;
+  width: 33vw;
+  text-align: center;
+  margin-top: 24vw;
+  color: black;
+  transition: 1s;
+}
+
+/* line 264, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.linkedinhref {
+  display: list-item;
+  text-decoration: none;
+  margin-top: 16px;
+  color: black;
+}
+
+/* line 272, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.linkedinhref:hover,
+.phoneclass:hover,
+.mailclass:hover,
+.linkedinclass:hover {
+  color: #3185FC;
+  border-color: #3185FC;
+  transition: 1s;
+  border-color: #3185FC;
+  transform: translateY(-10px);
+}
+
+/* line 284, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+#phone:hover,
+#mail:hover,
+#linkedin:hover {
+  color: #3185FC;
+  border-color: #3185FC;
+  transition: 1s;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
