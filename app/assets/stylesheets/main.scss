@@ -141,6 +141,7 @@ div.hidden {
   position: absolute;
   top: 32%;
   transform: translateY(-50%);
+  margin-left: 32px;
 }
 
 .arrow2 {
@@ -267,4 +268,28 @@ div.hidden {
 
 .fa-4x {
   color: black;
+}
+
+@media only screen and (max-width: 500px) {
+
+  .mailclass,
+  .linkedinclass,
+  .phoneclass {
+    display: block;
+    width: auto;
+    margin-top: 11vw;
+    transition: 1s;
+    text-align: center;
+  }
+
+  .thumb {
+    height: 100vw;
+    width: 100vw;
+    transition: filter 1s;
+    filter: grayscale(100%);
+  }
+  .container {
+    display: none;
+  }
+
 }
