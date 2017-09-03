@@ -272,16 +272,6 @@ div.hidden {
 
 @media only screen and (max-width: 500px) {
 
-  .mailclass,
-  .linkedinclass,
-  .phoneclass {
-    display: block;
-    width: auto;
-    margin-top: 11vw;
-    transition: 1s;
-    text-align: center;
-  }
-
   .thumb {
     height: 100vw;
     width: 100vw;
@@ -291,5 +281,19 @@ div.hidden {
   .container {
     display: none;
   }
+  .thumb {
+    filter: none;
+  }
+}
 
+@media only screen and (max-width: 900px) {
+  .mailclass,
+  .linkedinclass,
+  .phoneclass {
+    display: block;
+    width: auto;
+    margin-top: 11vw;
+    transition: 1s;
+    text-align: center;
+  }
 }
