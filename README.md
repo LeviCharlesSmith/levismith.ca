@@ -1,24 +1,3 @@
-# README
+# Levismith.ca
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Levismith.ca is a simple single page portfolio site for showcasing various projects and works by levi smith, the site will be under constant change and upgrades as my skills improve. 
