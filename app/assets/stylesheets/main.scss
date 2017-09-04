@@ -270,6 +270,39 @@ div.hidden {
   color: black;
 }
 
+nav {
+  // display: none;
+}
+
+nav ul {
+  list-style-type: none;
+  text-decoration: none;
+  background-color: blanchedalmond;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.nav_name {
+  float: left;
+  padding: 8px;
+  display: block;
+}
+
+.nav_right {
+        float: right;
+}
+
+.nav_a {
+   text-decoration: none;
+   display: block;
+   padding: 8px;
+}
+
+
 @media only screen and (max-width: 500px) {
 
   .thumb {
@@ -300,5 +333,6 @@ div.hidden {
   .phoneclass {
     margin-bottom: 25px;
   }
+
 
 }
