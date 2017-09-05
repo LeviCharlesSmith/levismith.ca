@@ -271,13 +271,13 @@ div.hidden {
 }
 
 nav {
-  // display: none;
+  display: none
 }
 
 nav ul {
   list-style-type: none;
   text-decoration: none;
-  background-color: blanchedalmond;
+  background-color: #3185FC;
   margin: 0px;
   padding: 0px;
   overflow: hidden;
@@ -318,6 +318,9 @@ nav ul {
   }
   .thumb {
     filter: none;
+  }
+  nav {
+    display: inherit;
   }
 }
 
