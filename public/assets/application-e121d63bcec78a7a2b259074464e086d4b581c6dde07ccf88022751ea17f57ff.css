@@ -1,0 +1,392 @@
+/* line 4, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+p,
+a {
+  font-family: 'Roboto Mono', monospace;
+  color: black;
+}
+
+/* line 10, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f7f7ff;
+}
+
+/* line 16, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.section {
+  height: 100vh;
+  background-color: #F7F7FF;
+}
+
+/* line 21, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.section_1 {
+  padding-top: 1%;
+  height: 100vh;
+  background-color: #F7F7FF;
+}
+
+/* line 27, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.h1_1 {
+  font-family: 'Roboto Mono', monospace;
+  color: #3185FC;
+  margin-top: 0px;
+  text-align: center;
+  font-size: 5em;
+  position: relative;
+  top: 42%;
+  -webkit-transform: translateY(-46%);
+  -ms-transform: translateY(-46%);
+  transform: translateY(-46%);
+}
+
+/* line 41, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+h2.hidden {
+  display: none;
+}
+
+/* line 45, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+h1.hidden {
+  display: none;
+}
+
+/* line 49, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+div.hidden {
+  display: none;
+}
+
+/* line 53, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.h2_sub {
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  position: relative;
+  top: 32%;
+  -webkit-transform: translateY(-36%);
+  -ms-transform: translateY(-36%);
+  transform: translateY(-36%);
+}
+
+/* line 63, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.h1_2 {
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  position: relative;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* line 72, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.h1_3 {
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  position: relative;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* line 81, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.project_section {
+  background-color: #F7F7FF;
+}
+
+/* line 85, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.Projects {
+  margin: auto;
+  width: 99vw;
+  font-size: 0;
+}
+
+/* line 91, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.thumb {
+  height: 33vw;
+  width: 33vw;
+  transition: filter 1s;
+  filter: grayscale(100%);
+}
+
+/* line 98, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.thumb > img {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 103, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.color_3185FC {
+  background-color: #3185FC;
+}
+
+/* line 107, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.color_16F4D0 {
+  background-color: #16F4D0;
+}
+
+/* line 111, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.color_92140C {
+  background-color: #92140C;
+}
+
+/* line 115, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.color_534B62 {
+  background-color: #534B62;
+}
+
+/* line 119, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.color_392F5A {
+  background-color: #392F5A;
+}
+
+/* line 123, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.color_ADFCF9 {
+  background-color: #31b2ad;
+}
+
+/* line 127, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.thumb:hover {
+  filter: none;
+}
+
+/* line 131, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.container {
+  margin: 0 auto;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+}
+
+/* line 139, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.arrow1 {
+  margin-top: 254px;
+  position: absolute;
+  top: 32%;
+  transform: translateY(-50%);
+  margin-left: 32px;
+}
+
+/* line 147, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.arrow2 {
+  margin-top: 53px;
+}
+
+/*-------------Infinite Bouncing Arrow----------*/
+/* line 153, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+/* line 208, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+#phone,
+#mail,
+#linkedin {
+  border-radius: 50%;
+  padding: 14px;
+  transition: 1s;
+}
+
+/* line 216, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.phoneclass {
+  display: inline-block;
+  width: 33vw;
+  text-align: center;
+  margin-top: 11vw;
+  transition: 1s;
+}
+
+/* line 224, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.mailclass {
+  display: inline-block;
+  width: 33vw;
+  text-align: center;
+  margin-top: 11vw;
+  transition: 1s;
+}
+
+/* line 232, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.linkedinclass {
+  display: inline-block;
+  width: 33vw;
+  text-align: center;
+  margin-top: 11vw;
+  color: black;
+  transition: 1s;
+}
+
+/* line 241, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.linkedinhref {
+  display: list-item;
+  text-decoration: none;
+  margin-top: 16px;
+  color: black;
+}
+
+/* line 249, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.phoneclass:hover,
+.mailclass:hover,
+.linkedinclass:hover {
+  color: #3185FC;
+  border-color: #3185FC;
+  transition: 1s;
+  border-color: #3185FC;
+  transform: translateY(-10px);
+}
+
+/* line 260, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+#phone:hover,
+#mail:hover,
+#linkedin:hover {
+  color: #3185FC;
+  border-color: #3185FC;
+  transition: 1s;
+}
+
+/* line 268, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.fa-4x {
+  color: black;
+}
+
+/* line 272, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+nav {
+  display: none;
+}
+
+/* line 276, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+nav ul {
+  list-style-type: none;
+  text-decoration: none;
+  background-color: #3E3E40;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+/* line 288, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.nav_name {
+  float: left;
+  padding: 8px;
+  display: block;
+  font-family: 'Roboto Mono', monospace;
+  color: #3185FC;
+}
+
+/* line 296, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.nav_right {
+  float: right;
+}
+
+/* line 300, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+.nav_a {
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+}
+
+@media only screen and (max-width: 500px) {
+  /* line 309, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+  .thumb {
+    height: 100vw;
+    width: 100vw;
+    transition: filter 1s;
+    filter: grayscale(100%);
+  }
+
+  /* line 315, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+  .container {
+    display: none;
+  }
+
+  /* line 318, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+  .thumb {
+    filter: none;
+  }
+
+  /* line 321, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+  nav {
+    display: inherit;
+  }
+}
+@media only screen and (max-width: 900px) {
+  /* line 327, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+  .mailclass,
+  .linkedinclass,
+  .phoneclass {
+    display: block;
+    width: auto;
+    margin-top: 11vw;
+    transition: 1s;
+    text-align: center;
+  }
+
+  /* line 337, /Users/levismith/Work/Portfolio_Site/app/assets/stylesheets/main.scss */
+  .phoneclass {
+    margin-bottom: 25px;
+  }
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
